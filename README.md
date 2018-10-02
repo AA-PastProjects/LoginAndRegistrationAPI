@@ -19,5 +19,5 @@ To make it work there are 2 steps you must take.
   }
 ```
 
-2. In the startup file, change the options in ConfigureServices to use the SQL type of your choice, e.g. MySql or SqlServer.
+2. In the Startup.cs file, change the options in ConfigureServices to use the SQL type of your choice, e.g. MySql or SqlServer.
 Note that there are 2 mysql choices, MySQL or MySql, use MySql.
