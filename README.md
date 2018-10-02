@@ -5,6 +5,7 @@ To make it work there are 2 steps you must take.
 
 1. You need to set up the settings in the AppSettings.json file. More specifically these sections:
 
+```
   "ConnectionStrings": {
     "DefaultConnection": "INSERT YOUR CONNECTION STRING HERE"
   },
@@ -16,6 +17,7 @@ To make it work there are 2 steps you must take.
   "API": {
     "APIKey": "INSERT YOUR API KEY HERE OR GENERATE IT SOMEWHERE, CAN ALSO STORE IN DATABASE OR SIMILAR."
   }
+```
 
 2. In the startup file, change the options in ConfigureServices to use the SQL type of your choice, e.g. MySql or SqlServer.
 Note that there are 2 mysql choices, MySQL or MySql, use MySql.
