@@ -27,3 +27,5 @@ The application should now be able to run.
 If you start it from Visual Studio you will end up at the website address it's hosted locally on (if you have IIS set up correctly).
 
 There you can go to the web address /swagger to get information on how to consume the API, which request types it support, API endpoints, body's to send and so on.
+
+In another project I am currently working on, I have used a login system similar to this one to make role based authorization.
